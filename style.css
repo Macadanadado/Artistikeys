@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:"Nunito Sans";
+    color: seashell;
+    opacity: 1;
+}
+
+html {
+    font-size: 22px;
+    background-color:#47001b;
+}
+
+/*Header*/
+header {
+    border-bottom: 2px solid black ;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #47001b;
+}
+
+.logo {
+    height: 65px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+header nav,
+header nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*Main Body*/
+main {
+    position: relative;
+    top: 77px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*About Us*/
+#about-us {
+    background-image: url('./Resources/leaves2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#about-us h2 {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+#about-us p {
+    text-align: justify;
+    width: 80%;
+}
+
+/*Products*/
+.product-containers {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    margin: 20px;
+}
+
+figure img {
+    height: 250px;
+    width: 375px;
+}
+
+figcaption {
+    text-align: center;
+    padding-top: 10px;
+}
