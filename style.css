@@ -47,18 +47,25 @@ main {
 }
 
 /*About Us*/
-#about-us {
+.about-img {
     background-image: url('./Resources/leaves2.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 500px;
+    width: 80%;
+    filter: blur(5px);
+    margin-bottom: 70px;
+}
+
+#about-us {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 85%;
-    height: 500px;
-    margin-bottom: 50px;
+    height: 500px; 
 }
 
 #about-us h2 {
@@ -70,6 +77,10 @@ main {
 #about-us p {
     text-align: justify;
     width: 80%;
+    padding: 20px 35px;
+    background-color: black;
+    opacity: 0.8;
+    box-shadow: 0 0 8px 8px #d1960d inset;
 }
 
 /*Products*/
@@ -91,4 +102,14 @@ figure img {
 figcaption {
     text-align: center;
     padding-top: 10px;
+}
+
+/*Footer*/
+footer {
+    height: 80px;
+    position: relative;
+    top: 77px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
 }
